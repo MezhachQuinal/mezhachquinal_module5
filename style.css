@@ -76,7 +76,7 @@ div{
 }
 .bannertext a{
     text-decoration: none;
-    display: inline;
+    display: inline-block;
     padding: 1em;
     border-color: rgb(77, 61, 18);
     margin-top: 1em;
