@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+div{
+    
+    padding: 5px;
+    margin: 5px;
+   
+}
+.gaybar{
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color:cornflowerblue;
+}
+#youtube{
+    background-color: red;
+}
+#khub{
+    background-color: cyan;
+}
+#github{
+    background-color: lightgreen;
+}
+#facebook{
+    background-color: lightblue;
+}
+#discord{
+    background-color: blue;
+}
+.link{
+    display: inline;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 70%;
+    transition: 0.4s;
+}
+#linkgroup{
+    text-align:center;
+}
+.link:hover{
+    opacity: 100%;
+    font-size: x-large;
+    font-family: 'Young Serif', serif;
+}
+.link a{
+    text-decoration: none;
+}
+.banner{
+    background-image: url('images/banner-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 350px;
+}
+.bannertext{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+.bannertext h2{
+    text-transform: uppercase;
+    color: rgb(210,159,101);
+    font-size: 4em;
+}
+.bannertext h2 span{
+    color:rgb(103, 72, 28);
+}
+.bannertext p{
+    color:bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bannertext a{
+    text-decoration: none;
+    display: inline;
+    padding: 1em;
+    border-color: rgb(77, 61, 18);
+    margin-top: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+}
